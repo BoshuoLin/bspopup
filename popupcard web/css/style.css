@@ -36,7 +36,6 @@ section {
 
 body {
     background: linear-gradient(to right, #1fa8c4 0%, #25cfed 0%, #db2ef2 100%);
-    height: 100vh;
     position: relative;
 }
 
@@ -103,8 +102,6 @@ footer {
     height: 40px;
     font-family: symfont;
     color: #ffff;
-    position: absolute;
-    bottom: 0%;
     width: 100%;
 }
 
