@@ -1,0 +1,79 @@
+
+@font-face {
+    font-family:syfont;
+    src: url(../font/NotoSansTC-Bold.ttf);
+}
+
+
+@font-face {
+    font-family:symfont;
+    src: url(../font/NotoSansTC-Medium.ttf);
+}
+
+
+.navbar{
+    background-color: rgba(255, 252, 252, 0.753);
+    height: 75px;
+}
+
+
+.navbar-brand , .offcanvas-title{
+    font-size: 1.35rem; 
+    font-family:syfont;
+    color:#414144 !important;}
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: #555555;
+}
+
+section{
+    height: calc(120vh - 115px);
+    width: 100%;
+}
+
+body{
+    background: linear-gradient(to right,#1fa8c4 0%,#25cfed 0%,#db2ef2 100%);
+    height: 100vh;
+    position: relative;
+}
+
+html{
+    overflow-y: hidden;
+
+}
+
+.nav-item{
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition-duration: .3s;
+    padding: 0 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+
+.nav-item:hover{
+    background-color: #e4e4e4;
+}
+
+
+
+.active{
+    color: #1a00ac !important; 
+}
+
+footer{
+    background-color: #5555559c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-family:symfont;
+    color: #ffff;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
