@@ -13,7 +13,7 @@
 
 .navbar-brand , .offcanvas-title{
     font-size: 1.35rem; 
-    font-weight:bold;
+  font-family:symfont;
     color:#414144 !important;}
 
 .item{
