@@ -1,44 +1,51 @@
+@font-face {
+    font-family: syfont;
+    src: url(../font/NotoSansTC-Bold.ttf);
+}
+
 
 @font-face {
-    font-family:symfont;
+    font-family: symfont;
     src: url(../font/NotoSansTC-Medium.ttf);
 }
 
 
-.navbar{
+.navbar {
     background-color: rgba(255, 252, 252, 0.753);
     height: 75px;
 }
 
 
-.navbar-brand , .offcanvas-title{
-    font-size: 1.35rem; 
-  font-family:symfont;
-    color:#414144 !important;}
+.navbar-brand,
+.offcanvas-title {
+    font-size: 1.35rem;
+    font-family: syfont;
+    color: #414144 !important;
+}
 
-.item{
+.item {
     width: 100px;
     height: 100px;
     background-color: #555555;
 }
 
-section{
-    height: calc(120vh - 115px);
+section {
+    height: calc(100vh - 115px);
     width: 100%;
 }
 
-body{
-    background: linear-gradient(to right,#1fa8c4 0%,#25cfed 0%,#db2ef2 100%);
+body {
+    background: linear-gradient(to right, #1fa8c4 0%, #25cfed 0%, #db2ef2 100%);
     height: 100vh;
     position: relative;
 }
 
-html{
+html {
     overflow-y: hidden;
 
 }
 
-.nav-item{
+.nav-item {
     font-size: 1.2rem;
     font-weight: bold;
     transition-duration: .3s;
@@ -48,26 +55,62 @@ html{
 }
 
 
-.nav-item:hover{
+.alert {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: #414144bf;
+    z-index: 999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.alert h1 {
+    color: #ffff;
+    line-height: 3rem;
+    font-size: 1.4rem;
+    font-family: symfont;
+    text-shadow: #41414483 5px 5px 5px;
+}
+
+.alert p  {
+    text-align: center;
+    color: #c8c8c8;
+    font-size: 1.1rem;
+    font-family: symfont;
+    
+}
+
+.nav-item:hover {
     background-color: #e4e4e4;
 }
 
 
 
-.active{
-    color: #1a00ac !important; 
+.active {
+    color: #1a00ac !important;
 }
 
-footer{
+footer {
     background-color: #5555559c;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 40px;
-    font-family:symfont;
+    font-family: symfont;
     color: #ffff;
     position: absolute;
     bottom: 0%;
     width: 100%;
 }
 
+@media (max-width:992px) {
+    
+.alert {
+    display: flex;
+}
+}
