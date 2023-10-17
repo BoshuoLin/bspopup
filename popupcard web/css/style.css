@@ -73,7 +73,7 @@ html {
     color: #ffff;
     line-height: 3rem;
     font-size: 1.4rem;
-    font-family: symfont;
+    font-weight: bold;
     text-shadow: #41414483 5px 5px 5px;
 }
 
@@ -81,7 +81,7 @@ html {
     text-align: center;
     color: #c8c8c8;
     font-size: 1.1rem;
-    font-family: symfont;
+    font-weight: bold;
     
 }
 
