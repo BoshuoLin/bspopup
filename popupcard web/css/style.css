@@ -1,11 +1,5 @@
 
 @font-face {
-    font-family:syfont;
-    src: url(../font/NotoSansTC-Bold.ttf);
-}
-
-
-@font-face {
     font-family:symfont;
     src: url(../font/NotoSansTC-Medium.ttf);
 }
@@ -19,7 +13,7 @@
 
 .navbar-brand , .offcanvas-title{
     font-size: 1.35rem; 
-    font-family:syfont;
+    font-weight:bold;
     color:#414144 !important;}
 
 .item{
